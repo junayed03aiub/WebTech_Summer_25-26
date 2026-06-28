@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Student Service Portal</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+        <body>
+        <h1>Student Service Portal</h1>
+<p>Welcome to the Student Service Portal. Here you can access various services and resources available to students.</p>
+<nav>
+    
+        <a href="Home">Home</a>
+        <a href="services">Services</a>
+        <a href="resource">Resources</a>
+        <a href="contact">Contact</a>
+</nav>
+<main>
+    <h2>Available Services</h2>
+    <form>
+    <h3>Student Name</h3>
+
+        <input type="text" required><br>
+        <h3>Student ID:</h3>
+        <input type="text"maxlenght="10"required>
+         <h3>Email Address:</h3>
+        <input type="text" required><br>
+         <h3> Service Type</h3>
+        <select>
+            <option>Transcript</option>
+            <option>ID Card</option>
+            <option>General Inquiry</option>
+        </select><br>
+        <h3>Urgency level</h3>
+        <input type="radio" name="level" value="low"> Low<br>
+        <input type="radio" name="level" value="medium"> Medium<br>
+        <input type="radio" name="level" value="high"> High<br>
+        <br>
+        <h3>Additional Details:</h3>
+        <textarea name="Details" required></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</main>
+<footer>
+    <p> 2024 Student Service Portal. All rights reserved.</p>    
+
+</html>
